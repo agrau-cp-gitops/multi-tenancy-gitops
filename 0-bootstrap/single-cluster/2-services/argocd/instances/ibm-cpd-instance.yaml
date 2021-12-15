@@ -28,9 +28,9 @@ spec:
       - name: spec.license.license
         value: "Enterprise"
       - name: spec.storageClass
-        value: "ibmc-file-gold-gid"
+        value: "managed-nfs-storage"
       - name: spec.zenCoreMetadbStorageClass
-        value: "ibmc-file-gold-gid"
+        value: "managed-nfs-storage"
       - name: spec.version
         value: "4.0.1"
   syncPolicy:
